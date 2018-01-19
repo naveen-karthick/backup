@@ -1,0 +1,98 @@
+body {
+    background: url('austin1.jpg');
+    background-size: cover;
+}
+
+
+
+
+.main-container {
+    height: 650px;
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+.left-side {
+    color: white;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: #D24D57;
+}
+
+.left-side h1,h2,p {
+    text-align: center;
+}
+
+.left-side  p {
+    margin-top: 6%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.zilker-img {
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+
+.social-media {
+    width: 50%;
+    margin-left: 23%;
+    margin-top: 2%;
+}
+
+.right-side {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.5)),url('right-background.jpg');
+}
+
+.form {
+    color: white;
+}
+
+.form h1 {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 40%;
+    height: 20%;
+    border: 3px solid #555;
+    font-size: 20px;
+    background-color: #3CBC8D;
+    color: white;
+    background: transparent;
+}
+
+.form label {
+    float: left;
+    width: 10em;
+    margin-right: 1em;
+    margin-left: 10%; 
+    font-size: 25px;  
+}
+
+input[type="radio"] {
+    vertical-align: auto;
+}
+
+input[type="submit"] {
+    background-color: #D24D57;
+    height: 40px;
+    width: 15%;
+    border:3px solid grey;
+    border-radius: 20px;
+    margin-left: 40%;
+    color: white;
+    font-size: 15px;
+}
